@@ -7,7 +7,7 @@ Sudoku is a logic-based, combinatoria number-placement puzzle. In classic sudoku
 
 ### What sudoku_solver can do
 sudoku_solver v1.00 can solve easy and medium difficulty sudoku, read a 9x9 matrix from keyboars whith a simple value-x-y input or read the matrix from the matrix_file.txt. 
-For now the app uses 0 instead of the empty cell -this semplifies comparisons and searches of numbers-. Will be updated in next versions.
+For now the app uses 0 instead of the empty cell, this semplifies comparisons and searches of numbers. Will be updated in next versions.
 
 ### Manager class
 ###### Functions:
