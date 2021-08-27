@@ -11,10 +11,10 @@ For now the app uses 0 instead of the empty cell -this semplifies comparisons an
 
 ### Manager class
 ###### Functions:
--Manager constructor
--int retrive_key(int x, int y)
--int[][] read_matrix
--int[][] create_matrix
--int[][] solve(int[][] m)
--int[][] threexthree(int[][] m, int x, int y)
--void print_matrix(int[][] m)
+- Manager constructor
+- int retrive_key(int x, int y)
+- int[][] read_matrix
+- int[][] create_matrix
+- int[][] solve(int[][] m)
+- int[][] threexthree(int[][] m, int x, int y)
+- void print_matrix(int[][] m)
