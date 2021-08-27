@@ -21,43 +21,43 @@ For now the app uses 0 instead of the empty cell -this semplifies comparisons an
 
 ### Documentation
 #### retrive_key
-modifier: private \n
-throws: none
-input: int x, int y
-output: int 
-scope: map the sudoku 9x9 matrix with numbers from 1 to 81 with the matrix cell indexes (x for the rows and y for the columns)
+- modifier: private
+- throws: none
+- input: int x, int y
+- output: int 
+- scope: map the sudoku 9x9 matrix with numbers from 1 to 81 with the matrix cell indexes (x for the rows and y for the columns)
 
 #### read_matrix
-modifier: public
-throws: FileNotFoundException
-input: none
-output: int[][]
-scope: read from matrix_file.txt a 9x9 matrix with empty cells (indicated with 0 value)
+- modifier: public
+- throws: FileNotFoundException
+- input: none
+- output: int[][]
+- scope: read from matrix_file.txt a 9x9 matrix with empty cells (indicated with 0 value)
 
 #### create_matrix
-modifier: public
-throws: IOException
-input: none
-output: int[][]
-scope: read from keyboard values of the unsolved sudoku. Function needs the x/y index and a value beetween 1 and 9
+- modifier: public
+- throws: IOException
+- input: none
+- output: int[][]
+- scope: read from keyboard values of the unsolved sudoku. Function needs the x/y index and a value beetween 1 and 9
 
 #### solve
-modifier: public
-throws: none
-input: int[][] m
-output: int[][]
-scope: solve sudoku througth comparison of numbers from 1 to 9 with numbers in row/columns/3x3 matrix related. Two do-while loops allow to analyze every empty cells in the 9x9 matrix until sudoku is solved and every cell-list containing probable value solutions are empty
+- modifier: public
+- throws: none
+- input: int[][] m
+- output: int[][]
+- scope: solve sudoku througth comparison of numbers from 1 to 9 with numbers in row/columns/3x3 matrix related. Two do-while loops - - allow to analyze every empty cells in the 9x9 matrix until sudoku is solved and every cell-list containing probable value solutions - are empty
 
 #### threexthree
-modifier: private
-throws: none
-input: int[][]m, int x, int y
-output: int[][]
-scope: retrieve one of the 9 main 3x3 matrix understanding the matrix related to a specific couple of index
+- modifier: private
+- throws: none
+- input: int[][]m, int x, int y
+- output: int[][]
+- scope: retrieve one of the 9 main 3x3 matrix understanding the matrix related to a specific couple of index
 
 #### print_matrix
-modifier: public
-throws: none
-input: int[][]m
-output: none
-scope: print in the terminal a general matrix with any row/column lengths
+- modifier: public
+- throws: none
+- input: int[][]m
+- output: none
+- scope: print in the terminal a general matrix with any row/column lengths
