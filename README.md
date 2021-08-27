@@ -21,7 +21,7 @@ For now the app uses 0 instead of the empty cell -this semplifies comparisons an
 
 ### Documentation
 #### retrive_key
-modifier: private
+modifier: private \n
 throws: none
 input: int x, int y
 output: int 
